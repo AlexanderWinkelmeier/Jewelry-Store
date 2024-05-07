@@ -1,0 +1,133 @@
+body {
+  background-color: #edefee;
+  font-family: 'Markazi Text', serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav {
+  background-color: #000;
+  max-width: 100%;
+}
+
+nav a {
+  color: #458ad8;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0;
+}
+
+ul li {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+#main-banner {
+  max-width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+
+.banner-text h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.banner-text button {
+  padding: 1em;
+  border-style: none;
+  border-radius: 0.5px;
+  background-color: rgb(69, 138, 216);
+  font-weight: bold;
+}
+
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 1rem;
+}
+
+.articles-container article {
+  flex: 1 0 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+article p {
+  padding: 0.5rem;
+}
+
+button {
+  padding: 1em;
+  border-style: none;
+  border-radius: 0.5px;
+  background-color: rgb(69, 138, 216);
+  font-weight: bold;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: rgb(48, 103, 159);
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: rgb(69, 138, 216);
+  padding: 2rem;
+  margin-top: 2rem;
+  max-width: 100%;
+}
+
+footer div {
+  flex: 1;
+}
